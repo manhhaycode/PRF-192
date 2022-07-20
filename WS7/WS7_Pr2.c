@@ -101,7 +101,7 @@ void addEmployee(char code[][8], char name[][20], double *salary, double * allow
 	(*n)++;		
 }
 
-void listAscending(char code[][8], char name[][20], double *salary, double * allowance, int *n){
+void listDescending (char code[][8], char name[][20], double *salary, double * allowance, int *n){
 	int haveswap =0;
 	for(int i = 0; i<*n - 1; i++){
 		for(int j = *n - 1; j>i; j--){
